@@ -6,6 +6,11 @@ Robot Control Simulator is a web-based application that allows users to control 
 
 <img src="/public/screenshot.png" width="200">
 
+## Live Demo
+
+You can try out the live demo of the Robot Control Simulator here:
+[https://robot-control-puce.vercel.app/](https://robot-control-puce.vercel.app/)
+
 ## Features
 
 - Interactive 5x5 grid environment

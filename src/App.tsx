@@ -45,7 +45,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-bellroy-blue flex flex-col items-center justify-center p-4">
+    <div className="h-screen w-screen bg-bellroy-blue flex flex-col items-center justify-center p-4">
       <h1 className="text-3xl font-bold text-bellroy-tan mb-8">Robot Control</h1>
       {/* Pass robot state to Grid component */}
       <Grid robotX={robotX} robotY={robotY} robotDirection={robotDirection} />
