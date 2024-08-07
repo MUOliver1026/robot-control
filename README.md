@@ -35,7 +35,7 @@ Robot Control Simulator is a web-based application that allows users to control 
 1. Clone the repository:
 
 ```
-  git clone https://github.com/MUOliver1026/robot-control-simulator.git
+  git clone https://github.com/MUOliver1026/robot-control.git
 ```
 
 1. Navigate to the project directory:
@@ -99,7 +99,7 @@ robot-control-simulator/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE]([LICENSE](https://github.com/MUOliver1026/robot-control/blob/main/LICENSE)) file for details.
 
 ## Acknowledgments
 
@@ -110,4 +110,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Yuanming (Oliver) Wu - yuanming.oliver.wu@gmail.com
 
-Project Link: [https://github.com/MUOliver1026/robot-control-simulator](https://github.com/MUOliver1026/robot-control-simulator)
+Project Link: [https://github.com/MUOliver1026/robot-control](https://github.com/MUOliver1026/robot-control)
