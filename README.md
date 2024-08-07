@@ -100,21 +100,42 @@ npm run cypress:open
 ## Project Structure
 
 ```
-robot-control-simulator/
-├── src/
-│ ├── components/
-│ │ ├── Grid.tsx
-│ │ └── Robot.tsx
-│ ├── App.tsx
-│ ├── index.css
-│ ├── main.tsx
-│ └── vite-env.d.ts
-├── public/
+.
+├── LICENSE
+├── README.md
+├── cypress
+│   ├── downloads
+│   ├── e2e
+│   │   └── robot_control.cy.ts
+│   ├── fixtures
+│   │   └── example.json
+│   └── support
+│       ├── commands.ts
+│       └── e2e.ts
+├── cypress.config.cjs
 ├── index.html
+├── package-lock.json
 ├── package.json
-├── tsconfig.json
+├── postcss.config.js
+├── public
+│   └── screenshot.png
+├── src
+│   ├── App.css
+│   ├── App.tsx
+│   ├── components
+│   │   ├── Grid.tsx
+│   │   └── Robot.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── store
+│   │   └── index.ts
+│   └── vite-env.d.ts
 ├── tailwind.config.js
-└── vite.config.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+└── yarn.lock
 ```
 
 ## Usage
