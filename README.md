@@ -4,7 +4,7 @@
 
 Robot Control Simulator is a web-based application that allows users to control a virtual robot on a 5x5 grid. Built with React, TypeScript, and styled with TailwindCSS, this project demonstrates modern web development practices and responsive design principles.
 
-![Robot Control Simulator Screenshot](/public/screenshot.png)
+<img src="/public/screenshot.png" width="200">
 
 ## Features
 
