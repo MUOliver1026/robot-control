@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Grid from './components/Grid';
 import { RootState, moveForward, rotate } from './store';
