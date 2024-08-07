@@ -26,6 +26,8 @@ You can try out the live demo of the Robot Control Simulator here:
 - Vite 5.3.4
 - TailwindCSS 3.4.7
 - Node.js 22.4.1
+- Redux Toolkit
+- Cypress
 - ESLint 8.57.0
 
 ## Getting Started
@@ -74,6 +76,26 @@ To create a production build:
 ```
 
 The built files will be in the `dist` directory.
+
+## Redux State Management
+
+This project uses Redux Toolkit for state management. The Redux store is configured in `src/store/index.ts`. The main slice for managing the robot's state is defined in this file.
+
+## Testing
+### Running Cypress Tests
+This project uses Cypress for end-to-end testing. To run the Cypress tests:
+1. Ensure your development server is running:
+```
+npm run dev
+```
+
+2. In a separate terminal, run:
+```
+npm run cypress:open
+```
+
+3. In the Cypress Test Runner, click on "E2E Testing" and select your preferred browser.
+4. Click on the robot_control.cy.ts spec file to run the tests.
 
 ## Project Structure
 
